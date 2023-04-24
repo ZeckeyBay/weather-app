@@ -6,6 +6,7 @@ function App() {
   const key = "bc26f501bad96b7db6ab07f32120e229"
   const [data,setData] = useState({});
   const [location,setLocation] = useState("")
+  {/* add forecast */}
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${key}&units=metric`;
  
   const searchLocation = (event) =>{
